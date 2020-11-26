@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Coroutines-Android-Examples.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Coroutines-Android-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kotlin-Coroutines-Android-Examples.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kotlin-Coroutines-Android-Examples.app.iml" />
+    </modules>
+  </component>
+</project>
