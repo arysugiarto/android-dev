@@ -14,7 +14,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/home_dest">
+            app:startDestination="@+id/home_dest">
     <fragment
         android:id="@+id/home_dest"
         android:name="com.example.android.codelabs.navigation.HomeFragment"
@@ -31,21 +31,26 @@
             <!--app:popExitAnim="@anim/slide_out_right" />-->
         <!-- TODO END STEP 7.1 -->
 
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/flow_step_one_dest"
+            app:popUpTo="@id/home_dest" />
     </fragment>
 
     <fragment
         android:id="@+id/flow_step_one_dest"
         android:name="com.example.android.codelabs.navigation.FlowStepFragment"
+        android:label="Step One"
         tools:layout="@layout/flow_step_one_fragment">
         <argument
-            android:name="flowStepNumber"
-            app:argType="integer"
-            android:defaultValue="1"/>
-
+            android:name="stepBoy"
+            android:defaultValue="1"
+            app:argType="integer" />
         <action
             android:id="@+id/next_action"
-            app:destination="@+id/flow_step_two_dest">
-        </action>
+            app:destination="@id/flow_step_two_dest" />
+
+
     </fragment>
 
     <fragment
@@ -54,7 +59,7 @@
         tools:layout="@layout/flow_step_two_fragment">
 
         <argument
-            android:name="flowStepNumber"
+            android:name="stepBoy"
             app:argType="integer"
             android:defaultValue="2"/>
 
