@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <include app:graph="@navigation/second_graph" />
+
+    <include app:graph="@navigation/second_graph_two"/>
+
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.arysugiarto.android.deep.modular_naviagtion_component.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/navigateToSecondFeature"
+            app:destination="@id/second_graph"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/navigateToSecondFeatureTwo"
+            app:destination="@id/second_graph_two" />
+    </fragment>
+</navigation>
