@@ -1,1 +1,0 @@
-include ':app', ':second_feature', ':third_feature', ':fourth_feature'

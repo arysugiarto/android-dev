@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Order_Ticket.iml" filepath="$PROJECT_DIR$/.idea/modules/Order_Ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Order_Ticket.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Order_Ticket.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Order_Ticket.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Order_Ticket.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core-utils/Order_Ticket.core-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/core-utils/Order_Ticket.core-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-order-bus/Order_Ticket.feature-order-bus.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-order-bus/Order_Ticket.feature-order-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-order-drink/Order_Ticket.feature-order-drink.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-order-drink/Order_Ticket.feature-order-drink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-order-flight/Order_Ticket.feature-order-flight.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-order-flight/Order_Ticket.feature-order-flight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-order-hotel/Order_Ticket.feature-order-hotel.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-order-hotel/Order_Ticket.feature-order-hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-order-train/Order_Ticket.feature-order-train.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-order-train/Order_Ticket.feature-order-train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-setting/Order_Ticket.feature-setting.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-setting/Order_Ticket.feature-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature-transaction/Order_Ticket.feature-transaction.iml" filepath="$PROJECT_DIR$/.idea/modules/feature-transaction/Order_Ticket.feature-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/Order_Ticket.launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/Order_Ticket.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/annotations/Order_Ticket.launcher.annotations.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/annotations/Order_Ticket.launcher.annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/compiler/Order_Ticket.launcher.compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/compiler/Order_Ticket.launcher.compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/main/Order_Ticket.launcher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/main/Order_Ticket.launcher.main.iml" />
+    </modules>
+  </component>
+</project>
