@@ -4,10 +4,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.paging.LoadState
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.codelabs.paging.R
-import com.example.android.codelabs.paging.databinding.RepoViewItemBinding
+import com.example.android.codelabs.paging.databinding.ActivitySearchRepositoriesBinding
 import com.example.android.codelabs.paging.databinding.ReposLoadStateFooterViewItemBinding
+
+//import com.example.android.codelabs.paging.databinding.ReposLoadStateFooterViewItemBinding
 
 class ReposLoadStateViewHolder (
         private val binding: ReposLoadStateFooterViewItemBinding,
@@ -25,6 +28,7 @@ class ReposLoadStateViewHolder (
         binding.progressBar.isVisible = loadState is LoadState.Loading
         binding.retryButton.isVisible = loadState !is LoadState.Loading
         binding.errorMsg.isVisible = loadState !is LoadState.Loading
+
     }
 
     companion object{

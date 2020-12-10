@@ -25,7 +25,7 @@ import com.example.android.codelabs.paging.model.Repo
 /**
  * Adapter for the list of repositories.
  */
-class ReposAdapter : PagingDataAdapter<Repo, androidx.recyclerview.widget.RecyclerView.ViewHolder>(REPO_COMPARATOR) {
+class   ReposAdapter : PagingDataAdapter<Repo, androidx.recyclerview.widget.RecyclerView.ViewHolder>(REPO_COMPARATOR) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): androidx.recyclerview.widget.RecyclerView.ViewHolder {
         return RepoViewHolder.create(parent)
@@ -36,6 +36,8 @@ class ReposAdapter : PagingDataAdapter<Repo, androidx.recyclerview.widget.Recycl
         if (repoItem != null) {
             (holder as RepoViewHolder).bind(repoItem)
         }
+
+
     }
 
     companion object {

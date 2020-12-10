@@ -40,7 +40,7 @@
         android:id="@+id/repo_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:maxLines="10"
+        android:maxLines="2"
         android:paddingVertical="@dimen/row_item_margin_vertical"
         android:textColor="?android:textColorPrimary"
         android:textSize="@dimen/repo_description_size"
