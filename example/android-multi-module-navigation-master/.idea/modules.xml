@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/android-multi-module-navigation-master.iml" filepath="$PROJECT_DIR$/.idea/android-multi-module-navigation-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-multi-module-navigation-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-multi-module-navigation-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fourth_feature/android-multi-module-navigation-master.fourth_feature.iml" filepath="$PROJECT_DIR$/.idea/modules/fourth_feature/android-multi-module-navigation-master.fourth_feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second_feature/android-multi-module-navigation-master.second_feature.iml" filepath="$PROJECT_DIR$/.idea/modules/second_feature/android-multi-module-navigation-master.second_feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/third_feature/android-multi-module-navigation-master.third_feature.iml" filepath="$PROJECT_DIR$/.idea/modules/third_feature/android-multi-module-navigation-master.third_feature.iml" />
+    </modules>
+  </component>
+</project>

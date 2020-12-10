@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Order_Ticket.launcher.annotations.annotations">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/launcher/annotations/build/libs/annotations.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
