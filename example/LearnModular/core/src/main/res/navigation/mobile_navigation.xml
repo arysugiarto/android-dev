@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.helsanf.modular.learn.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/actionToDetail"
+            app:destination="@id/detail_navigation">
+
+        </action>
+</fragment>
+
+    <fragment
+        app:moduleName="favorite"
+        android:id="@+id/navigation_favorite"
+        android:name="com.helsanf.modular.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" >
+      <action
+
+          android:id="@+id/actionToDetail"
+          app:destination="@id/detail_navigation">
+
+      </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail_navigation"
+        android:name="com.helsanf.modular.detail.DetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_detail"
+        >
+
+        <argument
+            android:name="idteam"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,5 @@
+include ':detail'
+include ':core'
+include ':favorite'
+include ':app'
+rootProject.name = "LearnModular"

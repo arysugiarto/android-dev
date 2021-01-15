@@ -1,0 +1,2 @@
+rootProject.name = "jepack-compose-codelabs1"
+include ':app'

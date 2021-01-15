@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">coroutine-flow</string>
+    <string name="youre_place">Lokasi kamu</string>
+</resources>
