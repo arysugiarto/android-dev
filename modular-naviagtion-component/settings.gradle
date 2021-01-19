@@ -1,0 +1,3 @@
+include ':second_feature'
+include ':app'
+rootProject.name = "modular-naviagtion-component"

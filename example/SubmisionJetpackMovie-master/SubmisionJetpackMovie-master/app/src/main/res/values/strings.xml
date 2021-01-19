@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Jetpack Pro</string>
+    <string name="movie">Movie</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_activity_detail">Detail Activity</string>
+    <string name="image_desc">Image Desc</string>
+    <string name="image_cover">Image Cover</string>
+    <string name="descripsinya">Descropsinya</string>
+    <string name="rate">7.0</string>
+    <string name="date">date</string>
+    <string name="titlenya">Titlenya</string>
+</resources>

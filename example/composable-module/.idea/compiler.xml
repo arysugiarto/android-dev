@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="Order_Ticket.app" target="1.8" />
+      <module name="Order_Ticket.buildSrc" target="1.8" />
+      <module name="Order_Ticket.core-utils" target="1.8" />
+      <module name="Order_Ticket.feature-order-bus" target="1.8" />
+      <module name="Order_Ticket.feature-order-drink" target="1.8" />
+      <module name="Order_Ticket.feature-order-flight" target="1.8" />
+      <module name="Order_Ticket.feature-order-food" target="1.8" />
+      <module name="Order_Ticket.feature-order-hotel" target="1.8" />
+      <module name="Order_Ticket.feature-order-train" target="1.8" />
+      <module name="Order_Ticket.feature-setting" target="1.8" />
+      <module name="Order_Ticket.feature-transaction" target="1.8" />
+      <module name="Order_Ticket.launcher.compiler" target="1.8" />
+      <module name="Order_Ticket.launcher.main" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
